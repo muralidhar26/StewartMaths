@@ -42,6 +42,7 @@ print ('Y_pred_80000-->'+ str(Y_pred_80000))
 Y_pred_200000 = m*200000 + c
 print ('Y_pred_200000-->'+ str(Y_pred_200000))
 
+
 plt.scatter(serX, serY) # actual
 plt.plot([max(serX), min(serX)], [min(Y_pred), max(Y_pred)], color='red') # predicted
 plt.show()
